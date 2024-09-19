@@ -62,7 +62,7 @@ API calls are cached by default to mitgate number of requests to PokeAPI.
 ## Dependencies of Note
 
 [go-cache]: https://github.com/patrickmn/go-cache
-[resty]: https://github.com/go-resty/resty/v2
+[resty]: https://github.com/go-resty/resty/
 [testify]: https://github.com/stretchr/testify
 
 #### resty
