@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("Pokemon: %s, ID: %d\n", pokemon.Name, pokemon.ID)
 
 	// Get a Generation
-	gen, err := client.GetGeneration("1")
+	gen, err := client.GetGeneration("generation-i")
 	if err != nil {
 		log.Fatalf("Error getting Generation: %v", err)
 	}

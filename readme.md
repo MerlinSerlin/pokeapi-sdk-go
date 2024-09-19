@@ -45,7 +45,7 @@ pokemon, err := client.GetPokemon("pokemon")
 pokemon, err := client.GetGeneration("generation")
 ```
 
-*Must pass an ID (e.g. "1") or name (e.g. "Generation I").*
+*Must pass an ID (e.g. "1") or name (e.g. "generation-i").*
 
 ## Tests 
 
