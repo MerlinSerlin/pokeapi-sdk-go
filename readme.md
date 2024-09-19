@@ -55,7 +55,7 @@ It should be noted that the data from PokeAPI seems subject to change - I found 
 
 Considering this information, the focus of tests is primarily fetching data against fields outlined in the models.
 
-### Caching
+## Caching
 
 API calls are cached by default to mitgate number of requests to PokeAPI.
 
