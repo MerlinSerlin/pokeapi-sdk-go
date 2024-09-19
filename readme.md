@@ -23,33 +23,29 @@ import "github.com/merlinserlin/pokeapi-sdk-go"
 ```
 
 ## Endpoints
-
-<details>
   
-  
-  #### Get Pokemon
+#### Get Pokemon
 
-  ```go
-    client := api.NewClient()
+```go
+  client := api.NewClient()
 
-	// Get a Pokémon
-	pokemon, err := client.GetPokemon("pokemon")
-  ```
+// Get a Pokémon
+pokemon, err := client.GetPokemon("pokemon")
+```
 
-  *Must pass an ID (e.g. "1") or name (e.g. "pikachu").*
+*Must pass an ID (e.g. "1") or name (e.g. "pikachu").*
 
-  #### Get Generation
+#### Get Generation
 
 
-  ```go
-    client := api.NewClient()
+```go
+  client := api.NewClient()
 
-	// Get a Generation
-	pokemon, err := client.GetGeneration("generation")
-  ```
+// Get a Generation
+pokemon, err := client.GetGeneration("generation")
+```
 
-  *Must pass an ID (e.g. "1") or name (e.g. "Generation I").*
-</details>
+*Must pass an ID (e.g. "1") or name (e.g. "Generation I").*
 
 ### Caching
 
