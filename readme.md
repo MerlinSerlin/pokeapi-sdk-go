@@ -24,10 +24,8 @@ import "github.com/merlinserlin/pokeapi-sdk-go"
 
 ## Endpoints
 
-### GetPokemon
-
 <details>
-  <summary>Pokemon</summary>
+  
   
   #### Get Pokemon
 
