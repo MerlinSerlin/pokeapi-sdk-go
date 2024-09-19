@@ -7,14 +7,12 @@ Welcome to the PokeAPI SDK for Go! This library allows you to easily interact wi
 - **Retrieve Pokémon Data**: Fetch details about Pokémon, including their ID, name, abilities, moves, and more.
 - **Access Generation Information**: Get details about Pokémon generations, including main regions, abilities, moves, and species.
 
-## Installation
-
-To use the PokeAPI SDK for Go, you need to import the package into your Go project. You can do this by running:
-
 
 Full API documentation can be found at [Poke API](https://pokeapi.co/docs/v2.html).
 
-## Getting Started
+## Installation
+
+To use the PokeAPI SDK for Go, you need to import the package into your Go project. You can do this by running:
 
 ```bash
 go get github.com/merlinserlin/pokeapi-sdk-go
