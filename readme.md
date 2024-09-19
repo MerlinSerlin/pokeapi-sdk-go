@@ -47,10 +47,34 @@ pokemon, err := client.GetGeneration("generation")
 
 *Must pass an ID (e.g. "1") or name (e.g. "Generation I").*
 
+## Tests 
+
+Tests are included in the tests folder. 
+
+It should be noted that the data from PokeAPI seems subject to change - I found that the example response property order for clefairy (id 35) is 64 when I ping the API, not 56 as  outlined in the sample response in the API doc's. 
+
+Considering this information, the focus of tests is primarily fetching data against fields outlined in the models.
+
 ### Caching
 
 API calls are cached by default to mitgate number of requests to PokeAPI.
 
+## Dependencies of Note
+
+#### resty
+github.com/go-resty/resty/v2
+
+This project uses resty as an HTTP client to simplify the experience of making HTTP requests. 
+
+#### cache-go
+github.com/patrickmn/go-cache
+
+This package is used to simplify caching operations. It's used to cache the requests we're sending to PokeAPI to keep their server costs down.
+
+#### testify
+github.com/stretchr/testify
+
+Our tests leverage the assert methods exposed by the testify package. Testify is a pretty standard tool for testing and has good readability. 
 
 
 
