@@ -62,17 +62,17 @@ API calls are cached by default to mitgate number of requests to PokeAPI.
 ## Dependencies of Note
 
 #### resty
-[resty github repo][github.com/go-resty/resty/v2]
+[https://github.com/go-resty/resty/v2][resty]
 
 This project uses resty as an HTTP client to simplify the experience of making HTTP requests. 
 
 #### cache-go
-[go-cache github repo][github.com/patrickmn/go-cache]
+[https://github.com/patrickmn/go-cache][go-cache]
 
 This package is used to simplify caching operations. It's used to cache the requests we're sending to PokeAPI to keep their server costs down.
 
 #### testify
-[testify github repo][github.com/stretchr/testify]
+[https://github.com/stretchr/testify][github]
 
 Our tests leverage the assert methods exposed by the testify package. Testify is a pretty standard tool for testing and has good readability. 
 
