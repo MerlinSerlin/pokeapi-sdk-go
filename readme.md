@@ -53,7 +53,7 @@ Tests are included in the tests folder.
 
 It should be noted that the data from PokeAPI seems subject to change - I found that the example response property order for clefairy (id 35) is 64 when I ping the API, not 56 as  outlined in the sample response in the API doc's. 
 
-Considering this information, the focus of tests is primarily fetching data against fields outlined in the models.
+Considering this information, the focus of tests is primarily fetching data against types outlined in the models, and less focus on asserting that a value should be correct (i.e. that order must = 64)
 
 ## Caching
 
